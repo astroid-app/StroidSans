@@ -1,13 +1,20 @@
-<style>
-@font-face {
-  font-family: StroidSans-Regular;
-  src: url("./StroidSans-Regular.ttf") format("truetype");
-}
+<head>
+  <style>
+    @font-face {
+      font-family: 'StroidSans-Regular';
+      src: url('./StroidSans-Regular.ttf') format('truetype');
+    }
 
-body {
-  font-family: StroidSans-Regular, Arial, sans-serif;  /* Fallback fonts */
-}
-</style>
+    h1, h2, p {
+      font-family: 'StroidSans-Regular', sans-serif;
+    }
+  </style>
+</head>
+
+# This is a heading in Stroid Sans {#heading-stroidsans}
+
+This is a paragraph in Stroid Sans.
+
 <body>
   <h1>µ StroidSans</h1>
   <p>StroidSans is Astroids custom font.</p>
